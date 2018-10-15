@@ -1,6 +1,6 @@
 numbers = [1,2,3]
 
-def square_array = [1,2,3]
-  square_array.each do |i| 
+ary = [1,2,3,4,5]
+ary.each do |i| 
    puts i **2
 end
