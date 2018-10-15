@@ -6,7 +6,6 @@ def square_array(numbers)
   numbers.each do |i| puts i **2
   end
 end
-puts square_array(numbers)
 
 square_array(new_numbers)
   new_numbers.each do |i| puts i **2
