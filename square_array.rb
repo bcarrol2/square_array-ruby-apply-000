@@ -5,3 +5,8 @@ square_array = []
 numbers.each do |i| 
    puts i **2
 end
+
+square_array = []
+new_numbers.each do |i| 
+   puts i **2
+end
