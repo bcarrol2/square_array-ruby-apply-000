@@ -10,4 +10,3 @@ end
 square_array(new_numbers)
   new_numbers.each do |i| puts i **2
   end
-square_array(new_numbers)
