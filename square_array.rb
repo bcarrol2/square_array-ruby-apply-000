@@ -1,8 +1,14 @@
-square_array(numbers) = []
-[1,2,3].each do |x|
-puts x ** 2
-end
+numbers = [1,2,3]
+new_numbers = [9,10,16,25]
 
-[9,10,16,25].each do |x|
-puts x ** 2
+def square_array(numbers)
+  numbers.each do |i| puts i **2
+  end
 end
+square_array(numbers)
+
+def square_array(new_numbers)
+  new_numbers.each do |i| puts i **2
+  end
+end
+square_array(new_numbers)
